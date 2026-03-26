@@ -83,8 +83,11 @@ nav {
   gap: 20px;
   overflow-x: auto;
   padding-top: 20px;
+  scrollbar-width: none;
 }
-
+.award-container::webkit-scrollbar {
+display: none;
+}
 .award-card {
   min-width: 250px;
   background: var(--card);
